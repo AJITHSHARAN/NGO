@@ -168,14 +168,27 @@ var ngoschema=new mongoose.Schema({
   //                 });
 app.get("/",function(req,res)
 {
-  res.render("home.ejs");
+  res.render("search.ejs");
 });
 app.get("/search",function(req,res)
 {
-  res.render("home.ejs");
+  if(req.query.search)
+  {
+    const regex = new RegExp(escapeRegExp(req.query.search), 'gi');
+    console.log(regex);
+    ngo.find({ "name": regex }, function(err, foundngo) {
+           if(err) {
+             console.log("not found");
+               console.log(err);
+
+           } else {
+             console.log("found");
+              res.render("results.ejs", { foundngo: foundngo });
+           }
+       });
+  }
 });
-app.get("/",function(req,res)
-{
-  res.render("home.ejs");
-});
+function escapeRegExp(text) {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+}
 app.listen(3000);
