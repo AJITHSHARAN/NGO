@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ShortyArt</title>
+    <title>NGO</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
@@ -25,19 +25,15 @@
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">SHORT ARTICLES</a>
+    <a class="navbar-brand" href="#">NGO</a>
 
-    <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="basicExampleNav">
 
-        <!-- Links -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="/">Home</a>
@@ -47,7 +43,6 @@
                 <a class="nav-link" href="/about">About us</a>
             </li>
 
-            <!-- Dropdown -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
@@ -60,7 +55,6 @@
             </li>
 
         </ul>
-        <!-- Links -->
 
         <form class="form-inline">
             <div class="md-form my-0">
@@ -68,30 +62,25 @@
             </div>
         </form>
     </div>
-    <!-- Collapsible content -->
 
 </nav>
 
 
 <form action="/search" method="GET">
-    <!-- Grd row -->
     <div class="form-row">
-        <!-- Grid column -->
         <div class="col">
-            <!-- Default input -->
-            <input type="text" style="border:1px solid #ff0000" class="form-control" placeholder="First name">
-        </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
+            <input type="text" style="border:1px solid #ff0000" class="form-control" name="search" placeholder="state">
+        </div>
+
         <div class="col">
-            <!-- Default input -->
-            <button type="button" class="btn btn-success btn-rounded">Success</button>
+
+            <button type="submit" class="btn btn-success btn-rounded">Search</button>
 
         </div>
-        <!-- Grid column -->
+
     </div>
-    <!-- Grd row -->
+
 </form>
 </body>
 </html>
