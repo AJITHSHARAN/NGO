@@ -174,13 +174,89 @@ app.get("/find",function(req,res)
 {
   res.render("search.ejs");
 });
-app.get("/search",function(req,res)
+app.get("/searchbyname",function(req,res)
 {
-  if(req.query.search)
+  if(req.query.name)
   {
-    const regex = new RegExp(escapeRegExp(req.query.search), 'gi');
+    const regex = new RegExp(escapeRegExp(req.query.name), 'gi');
     console.log(regex);
     ngo.find({ "name": regex }, function(err, foundngo) {
+           if(err) {
+             console.log("not found");
+             res.render("search.ejs");
+               console.log(err);
+
+           } else {
+             console.log("found");
+              res.render("results.ejs", { foundngo: foundngo });
+           }
+       });
+  }
+});
+app.get("/searchbycity",function(req,res)
+{
+  if(req.query.city)
+  {
+    const regex = new RegExp(escapeRegExp(req.query.city), 'gi');
+    console.log(regex);
+    ngo.find({ "city": regex }, function(err, foundngo) {
+           if(err) {
+             console.log("not found");
+             res.render("search.ejs");
+               console.log(err);
+
+           } else {
+             console.log("found");
+              res.render("results.ejs", { foundngo: foundngo });
+           }
+       });
+  }
+});
+app.get("/searchbyreg",function(req,res)
+{
+  if(req.query.reg)
+  {
+    const regex = new RegExp(escapeRegExp(req.query.reg), 'gi');
+    console.log(regex);
+    ngo.find({ "regno": regex }, function(err, foundngo) {
+           if(err) {
+             console.log("not found");
+             res.render("search.ejs");
+               console.log(err);
+
+           } else {
+             console.log("found");
+              res.render("results.ejs", { foundngo: foundngo });
+           }
+       });
+  }
+});
+app.get("/searchbysector",function(req,res)
+{
+  if(req.query.sector)
+  {
+    const regex = new RegExp(escapeRegExp(req.query.sector), 'gi');
+    console.log(regex);
+    ngo.find({ "sectors": regex }, function(err, foundngo) {
+           if(err) {
+             console.log("not found");
+             res.render("search.ejs");
+               console.log(err);
+
+           } else {
+             console.log("found");
+              res.render("results.ejs", { foundngo: foundngo });
+           }
+       });
+  }
+});
+app.get("/searchbystate",function(req,res)
+{
+  if(req.query.state)
+  {
+    const regex = new RegExp(escapeRegExp(req.query.state), 'gi');
+    console.log(regex);
+    ngo.find({ "state1": regex }, function(err, foundngo) {
            if(err) {
              console.log("not found");
              res.render("search.ejs");

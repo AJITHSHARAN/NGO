@@ -43,7 +43,7 @@
                 <a class="nav-link" href="/about">About us</a>
             </li>
 
-      
+
 
         </ul>
 
@@ -55,23 +55,64 @@
     </div>
 
 </nav>
+<br>
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid">
 
-
-<form action="/search" method="GET">
-    <div class="form-row">
-        <div class="col">
-
-            <input type="text" style="border:1px solid #ff0000" class="form-control" name="search" placeholder="state">
-        </div>
-
-        <div class="col">
-
-            <button type="submit" class="btn btn-success btn-rounded">Search</button>
-
-        </div>
-
+    <div class="container">
+        <h1 class="h1-reponsive mb-4 mt-2 green-text font-bold">Search By Anything</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
 
-</form>
+</div>
+<!--Jumbotron-->
+<br>
+<div class="container">
+
+  <hr>
+  <br>
+  <br>
+<form action="/searchbyname" method="GET">
+  <div class="container">
+<div class="md-form form-lg">
+    <input type="text" id="inputLGEx" class="form-control form-control-lg" name="name" placeholder="NGO Name">
+    <button type="submit" class="btn btn-success btn-rounded">Search</button>
+</div>
+    </div>
+    </form>
+    <form action="/searchbystate" method="GET">
+      <div class="container">
+    <div class="md-form form-lg">
+        <input type="text" id="inputLGEx" class="form-control form-control-lg" name="state" placeholder="State Name">
+        <button type="submit" class="btn btn-success btn-rounded">Search</button>
+    </div>
+        </div>
+        </form>
+        <form action="/searchbyreg" method="GET">
+          <div class="container">
+        <div class="md-form form-lg">
+            <input type="text" id="inputLGEx" class="form-control form-control-lg" name="reg" placeholder="Register Number">
+            <button type="submit" class="btn btn-success btn-rounded">Search</button>
+        </div>
+            </div>
+            </form>
+            <form action="/searchbycity" method="GET">
+              <div class="container">
+            <div class="md-form form-lg">
+                <input type="text" id="inputLGEx" class="form-control form-control-lg" name="city" placeholder="city">
+                <button type="submit" class="btn btn-success btn-rounded">Search</button>
+            </div>
+                </div>
+                </form>
+                <form action="/searchbysector" method="GET">
+                  <div class="container">
+                <div class="md-form form-lg">
+                    <input type="text" id="inputLGEx" class="form-control form-control-lg" name="sector" placeholder="Sector Name">
+                    <button type="submit" class="btn btn-success btn-rounded">Search</button>
+                </div>
+                    </div>
+                    </form>
+    </div>
+
 </body>
 </html>
