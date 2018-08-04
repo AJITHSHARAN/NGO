@@ -168,10 +168,6 @@ var ngoschema=new mongoose.Schema({
   //                 });
 app.get("/",function(req,res)
 {
-  res.render("home.ejs");
-});
-app.get("/find",function(req,res)
-{
   res.render("search.ejs");
 });
 app.get("/search",function(req,res)
@@ -183,7 +179,6 @@ app.get("/search",function(req,res)
     ngo.find({ "name": regex }, function(err, foundngo) {
            if(err) {
              console.log("not found");
-             res.render("search.ejs");
                console.log(err);
 
            } else {
