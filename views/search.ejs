@@ -1,16 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ShortyArt</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+</head>
 <body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-<h2>HTML Forms</h2>
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">SHORT ARTICLES</a>
 
-<form action="/search" method="get">
-  <input type="text" name="search">
-  <br><br>
-  <input type="submit" value="Submit">
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/sports">Sports</a>
+                    <a class="dropdown-item" href="/arts">Arts</a>
+                    <a class="dropdown-item" href="/education">Education</a>
+                    <a class="dropdown-item" href="/fashions">Fashion</a>
+                    <a class="dropdown-item" href="/foods">Foods</a>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Links -->
+
+        <form class="form-inline">
+            <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+
+
+<form action="/search" method="GET">
+    <!-- Grd row -->
+    <div class="form-row">
+        <!-- Grid column -->
+        <div class="col">
+            <!-- Default input -->
+            <input type="text" style="border:1px solid #ff0000" class="form-control" placeholder="First name">
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col">
+            <!-- Default input -->
+            <button type="button" class="btn btn-success btn-rounded">Success</button>
+
+        </div>
+        <!-- Grid column -->
+    </div>
+    <!-- Grd row -->
 </form>
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
 </body>
 </html>

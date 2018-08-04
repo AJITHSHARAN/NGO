@@ -1,17 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NGO</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+<style>
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #black !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+
+</style>
+</head>
 <body>
+<!--Navbar-->
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <strong>ShortyArt</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/find">Search</a>
+            </li>
 
-<h2>HTML Forms</h2>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About us</a>
+            </li>
 
-<form action="/search" method="get">
-  First name:<br>
-  <input type="text" name="lastname" value="Mouse">
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
+            <!-- Dropdown -->
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Full Page Intro -->
+  <div class="view" style="background-image: url('https://scontent.fmaa2-2.fna.fbcdn.net/v/t1.0-9/38139446_2121730137900283_8245331249669865472_n.jpg?_nc_cat=0&oh=41eea143c2362017471f814dc9dd75f2&oe=5BD21A71'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+    <!-- Mask & flexbox options-->
+  </div>
+  <!-- Full Page Intro -->
+</header>
+<br>
+<hr>
+<blockquote class="blockquote text-center">
+  <p class="mb-0">Give them a reason to smile & you may receive more</p>
+  <footer class="blockquote-footer mb-3">NGO<cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+<blockquote class="blockquote bq-success">
+    <p class="bq-title">About NGO</p>
+<p>  The past five decades have witnessed the difficult problems encountered in providing health care services to our poor people, the majority of who live in more than half-a-million villages and in the proliferating slums of our cities. Charitable and voluntary organisations since time immemorial have been contributing significantly towards the health care of the community.</p>
+<p>There are many kinds of Non-Governmental Organisations (NGOs) engaged in working towards the improvement of the social, economic, environmental and political conditions of the country. They include citizens’ associations, professional societies, foundations, some universities and research centers, and networks of experts or institutions.</p>
+<p>With the passage of time, Non-Governmental Organisations (NGOs) have equipped themselves adequately and come up enthusiastically in providing services like relief to the blind, the disabled and disadvantaged and helping the government in mother and child health care, including family planning programmes.</p>
+</blockquote>
+<input type="text" style="border:1px solid #ff0000" />
+
+<!-- Default form row --
 
 </body>
 </html>
