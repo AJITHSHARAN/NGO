@@ -14,6 +14,148 @@ var ngoschema=new mongoose.Schema({
     sectors:String
   });
   var ngo=mongoose.model("ngo",ngoschema);
+//   ngo.create(
+// {
+//   name:"BARRACKPORE DIOCESAN BOARD OF SOCIAL SERVICES",
+//   	regno:"S/1L/27538 OF 2004-2005",
+//     city:"BARRACKPORE",
+//     state1:"WEST BENGAL",
+//     address:"86, MIDDLE ROAD, BARRACKPORE",
+//     sectors:"Education & Literacy,Health & Family Welfare,Nutrition,Aged/Elderly"
+//
+// },function(err,ngo)
+//   {
+//      if(err)
+//      {
+//        console.log(err);
+//      }
+//      else
+//        {
+//          console.log(ngo);
+//        }
+//      });
+//      ngo.create(
+//    {
+//      name:"ST PETERS VOCATIONAL TRAINING CENTRE",
+// regno:"S/2L/41116 OF 2015-2016",
+// city:"KOLKATA",
+// state1:"WEST BENGAL",
+// address:"KULPI ROAD, P.O AND P.S BARUIPUR",
+// sectors:"Education & Literacy"
+//
+//    },function(err,ngo)
+//      {
+//         if(err)
+//         {
+//           console.log(err);
+//         }
+//         else
+//           {
+//             console.log(ngo);
+//           }
+//         });
+//         ngo.create(
+//       {
+//         name:"Institute of Computer Literacy and Training",
+//   regno:"IV - 150100208 / 2016",
+//   city:"Badkulla",
+//   state1:"WEST BENGAL",
+//   address:"SH 11, Hospital More, P.O.Badkulla , DistNadiaStateWest Bengal, Pin741121",
+//   sectors:"Education & Literacy"
+//
+//       },function(err,ngo)
+//         {
+//            if(err)
+//            {
+//              console.log(err);
+//            }
+//            else
+//              {
+//                console.log(ngo);
+//              }
+//            });
+//            ngo.create(
+//          {
+//            name:"RAHARA PASCHIMPARA SOCIAL CULTURAL ATHLETIC ASSOCIATION",
+//  regno:"S/99626",
+//  city:"KHARDAH",
+//  state1:"WEST BENGAL",
+//  address:"RAHARA , PASCHIMPARA , POST RAHARA , KOLKATA700118",
+//  sectors:"Housing"
+//
+//          },function(err,ngo)
+//            {
+//               if(err)
+//               {
+//                 console.log(err);
+//               }
+//               else
+//                 {
+//                   console.log(ngo);
+//                 }
+//               });
+//
+//               ngo.create(
+//             {
+//               name:"10 D EDUCATIONAL DEVELOPMENT TRUST",
+// regno:"IV-01541/13",
+// city:"JOYNAGAR",
+// state1:"(WEST BENGAL)",
+// address:"257, N.S.B ROADPO- JOYNAGAR MAJILPURPS- JOYNAGAR",
+// sectors:"Education & Literacy"
+//             },function(err,ngo)
+//               {
+//                  if(err)
+//                  {
+//                    console.log(err);
+//                  }
+//                  else
+//                    {
+//                      console.log(ngo);
+//                    }
+//                  });
+//
+//                  ngo.create(
+//                {
+//                  name:"MILE AMRA SEBAK SANGHA",
+// regno:"S/2L/No.-43489 of 2015-2016",
+// city:"BERHAMPORE",
+// state1:"(WEST BENGAL)",
+// address:"VILL14 MILE (TIKOR) POKALADANGA PSDAULATABD",
+// sectors:"Animal Husbandry, Dairying & Fisheries,Art & Culture,Children,Civic Issues,Disaster Management,Drinking Water,Education & Literacy,Aged/Elderly,Environment & Forests,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Micro Finance (SHGs),Minority Issues,Rural Development & Poverty Alleviation,Science & Technology,Sports,Tribal Affairs,Vocational Training,Water Resources,Women's Development & Empowerment,Youth Affairs,Land Resources,Panchayati Raj",
+//
+//                },function(err,ngo)
+//                  {
+//                     if(err)
+//                     {
+//                       console.log(err);
+//                     }
+//                     else
+//                       {
+//                         console.log(ngo);
+//                       }
+//                     });
+//
+//                     ngo.create(
+//                   {
+//                     name:"6TH SENSE WELFARE SOCIETY",
+//                     regno:"S/IL/85744",
+//                     city:"BERHAMPORE",
+//                     state1:"(WEST BENGAL)",
+//                     address:"130, NETAJI ROAD, P.OKHAGRA",
+//                     sectors:"Health & Family Welfare"
+//                   },function(err,ngo)
+//               {
+//                        if(err)
+//                        {
+//                          console.log(err);
+//                        }
+//                        else
+//                          {
+//                            console.log(ngo);
+//                          }
+//                        });
+
   // ngo.create(
   // {
   //   name:"AdityaNatyaAcademy",
