@@ -424,101 +424,104 @@ var ngoschema=new mongoose.Schema({
   //           console.log(ngo);
   //         }
   //       });
-  //       ngo.create(
-  //       {
-  //         name:"AdityaNatyaAcademy",
-  //         state1:"Andaman & Nicobar Islands",
-  //         regno:"888",
-  //         city:"Port Blair" ,
-  //         address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //           sectors:"Data Not Found"
-  //       },function(err,ngo)
-  //       {
-  //         if(err)
-  //         {
-  //           console.log(err);
-  //         }
-  //         else
-  //           {
-  //             console.log(ngo);
-  //           }
-  //         });
-  //         ngo.create(
-  //         {
-  //           name:"AdityaNatyaAcademy",
-  //           state1:"Andaman & Nicobar Islands",
-  //           regno:"888",
-  //           city:"Port Blair" ,
-  //           address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //             sectors:"Data Not Found"
-  //         },function(err,ngo)
-  //         {
-  //           if(err)
-  //           {
-  //             console.log(err);
-  //           }
-  //           else
-  //             {
-  //               console.log(ngo);
-  //             }
-  //           });
-  //           ngo.create(
-  //           {
-  //             name:"AdityaNatyaAcademy",
-  //             state1:"Andaman & Nicobar Islands",
-  //             regno:"888",
-  //             city:"Port Blair" ,
-  //             address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //               sectors:"Data Not Found"
-  //           },function(err,ngo)
-  //           {
-  //             if(err)
-  //             {
-  //               console.log(err);
-  //             }
-  //             else
-  //               {
-  //                 console.log(ngo);
-  //               }
-  //             });
-  //             ngo.create(
-  //             {
-  //               name:"AdityaNatyaAcademy",
-  //               state1:"Andaman & Nicobar Islands",
-  //               regno:"888",
-  //               city:"Port Blair" ,
-  //               address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //                 sectors:"Data Not Found"
-  //             },function(err,ngo)
-  //             {
-  //               if(err)
-  //               {
-  //                 console.log(err);
-  //               }
-  //               else
-  //                 {
-  //                   console.log(ngo);
-  //                 }
-  //               });
-  //               ngo.create(
-  //               {
-  //                 name:"AdityaNatyaAcademy",
-  //                 state1:"Andaman & Nicobar Islands",
-  //                 regno:"888",
-  //                 city:"Port Blair" ,
-  //                 address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //                   sectors:"Data Not Found"
-  //               },function(err,ngo)
-  //               {
-  //                 if(err)
-  //                 {
-  //                   console.log(err);
-  //                 }
-  //                 else
-  //                   {
-  //                     console.log(ngo);
-  //                   }
-  //                 });
+//         ngo.create(
+//         {
+// name:"Aadhar Foundation",
+// 	regno:"E/20039/Ahmedabad",
+//   city:"Ahmedabad",
+//   state1:"(GUJARAT)",
+//   address:"D21, Shanti Complex, Vejalpur, Ahmedabad",
+//   sectors:"Children,Education & Literacy,Health & Family Welfare,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment"
+//        },function(err,ngo){
+//           if(err)
+//           {
+//             console.log(err);
+//           }
+//           else
+//             {
+//               console.log(ngo);
+//             }
+//           });
+//           ngo.create(
+//           {
+//
+//             name:"AADHAR DISABLE TRUST",
+//             regno:"E/7551/SURAT",
+//             city:"SURAT",
+//             state1:"(GUJARAT)",
+//             	address:"423 A YASHPLAZA VARACHHA ROAD SURAT 395006",
+//               sectors:"Data Not Found"
+//
+//           },function(err,ngo)
+//           {
+//             if(err)
+//             {
+//               console.log(err);
+//             }
+//             else
+//               {
+//                 console.log(ngo);
+//               }
+//             });
+//             ngo.create(
+//             {
+//               name:"A S FOUNDATION AND CHARITABLE TRUST",
+//               regno:"F/5655/BK",
+//               city:"PALANPUR",
+//                state1:"(GUJARAT)",
+//                	address:"A S FOUNDATION AND CHARITABLE TRUST 65 SHAKTI NAGAR NEAR BRIJASHVAR COLONY PART:1 PALANPUR DIST: BANSHKANTHA PIN 385001 GUJARAT",
+//                 sectors:"Vocational Training"
+//
+// },function(err,ngo)
+//             {
+//               if(err)
+//               {
+//                 console.log(err);
+//               }
+//               else
+//                 {
+//                   console.log(ngo);
+//                 }
+//               });
+//               ngo.create(
+//               {
+//                 name:"SIDDHI MAHILA EDUCATION TRUST",
+//                 regno:"F/1604/BANASKANTHA",
+//                 city:"PALANPUR",
+//                  state1:"(GUJARAT)",
+//                  address:"PALANPUR",
+//                  	sectors:"Children,Education & Literacy,Tribal Affairs,Dalit Upliftment"
+//     },function(err,ngo)
+//               {
+//                 if(err)
+//                 {
+//                   console.log(err);
+//                 }
+//                 else
+//                   {
+//                     console.log(ngo);
+//                   }
+//                 });
+//                 ngo.create(
+//                 {
+//                   name:"Adarsh Manav Seva Charitable Trust",
+//                   	regno:"F/1230/JUNAGADH",
+//                     city:"Junagadh",
+//                     state1:"(GUJARAT)",
+//                     address:"Office No.-4 Peragon Complex, 2nd Floor, M.G. Road, Junagadh-362001",
+//                     	sectors:"Education & Literacy,Environment & Forests,Food Processing,HIV/AIDS,Health & Family Welfare,Micro Small & Medium Enterprises,Women's Development & Empowerment"
+//
+// },function(err,ngo)
+//                 {
+//                   if(err)
+//                   {
+//                     console.log(err);
+//                   }
+//                   else
+//                     {
+//                       console.log(ngo);
+//                     }
+//                   });
 app.get("/",function(req,res)
 {
   res.render("home.ejs");
@@ -563,7 +566,7 @@ app.get("/home/bihar",function(req,res)
 
 app.get("/home/andhara",function(req,res)
 {
-   const regex = new RegExp(escapeRegExp("andhara Pradash"), 'gi');
+   const regex = new RegExp(escapeRegExp("(ANDHRA PRADESH)"), 'gi');
   ngo.find({ "state1": regex }, function(err, foundngo) {
          if(err) {
            console.log("not found");
@@ -579,7 +582,7 @@ app.get("/home/andhara",function(req,res)
 
 app.get("/home/madhaya",function(req,res)
 {
-   const regex = new RegExp(escapeRegExp("madhaya Pradash"), 'gi');
+   const regex = new RegExp(escapeRegExp("MADHAYA PRADESH"), 'gi');
   ngo.find({ "state1": regex }, function(err, foundngo) {
          if(err) {
            console.log("not found");
@@ -595,7 +598,7 @@ app.get("/home/madhaya",function(req,res)
 
 app.get("/home/andha",function(req,res)
 {
-   const regex = new RegExp(escapeRegExp("ANDAMAN & NICOBAR ISLANDS"), 'gi');
+   const regex = new RegExp(escapeRegExp("Andaman & Nicobar Islands"), 'gi');
   ngo.find({ "state1": regex }, function(err, foundngo) {
          if(err) {
            console.log("not found");
@@ -1073,7 +1076,7 @@ app.get("/home/goa",function(req,res)
 
 app.get("/home/chhattisgarh",function(req,res)
 {
-   const regex = new RegExp(escapeRegExp("chhattisgarh"), 'gi');
+   const regex = new RegExp(escapeRegExp("CHHATTISGARH"), 'gi');
   ngo.find({ "state1": regex }, function(err, foundngo) {
          if(err) {
            console.log("not found");
