@@ -1,0 +1,458 @@
+ngo.create{
+{
+name:"KANDRATIKURI WOOD CRAFT WELFARE SOCIETY",
+regno:"S/1/L/73031",
+city="BURDWAN",
+state:"WEST BENGAL",
+address:"VILL-KENDRATIKURI, PO- DWARNARY, PS- BUD BUD, DIST- BURDWAN (PURBA) WEST BENGAL PIN- 713403",
+sectors:"Agriculture,Children,Drinking Water,Education & Literacy,Health & Family Welfare,Human Rights,Legal Awareness & Aid,Micro Finance (SHGs),Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment,Any Other"
+},function(err,ngo)
+  {
+     if(err)
+     {
+       console.log(err);
+     }
+     else
+       {
+         console.log(ngo);
+       }
+     });
+  name:ST PETERS VOCATIONAL TRAINING CENTRE
+  regno:S/2L/41116 OF 2015-2016,
+  city:KOLKATA
+  state1:WEST BENGAL
+  address:"KULPI ROAD, P.O AND P.S BARUIPUR,
+  sectors:"Education & Literacy
+4	name:"Institute of Computer Literacy and Training"
+regno:IV - 150100208 / 2016,
+city:"Badkulla
+state1::WEST BENGAL
+address:"SH 11, Hospital More, P.O.Badkulla , DistNadiaStateWest Bengal, Pin741121
+sectors:"Education & Literacy
+name:"RAHARA PASCHIMPARA SOCIAL CULTURAL ATHLETIC ASSOCIATION
+regno:"S/99626,
+city:"KHARDAH
+state1:WEST BENGAL
+address:"RAHARA , PASCHIMPARA , POST RAHARA , KOLKATA700118
+sectors:"Housing
+name:"10 D EDUCATIONAL DEVELOPMENT TRUST"
+regno:"IV-01541/13,
+city="JOYNAGAR
+state1:"(WEST BENGAL)	257, N.S.B ROAD ,
+PO- JOYNAGAR MAJILPURPS- JOYNAGAR
+sectors:"Education & Literacy
+name:"D Welfare and Development Trust
+regno:"IV-00224 OF 2009,
+city="BARUIPUR
+state1:"(WEST BENGAL)
+SITAKUNDU MAIN ROAD, SOLGOLIA, ATAGHARA,MADARAT, BARUIPUR, KOLKATA 700144
+sectors:"Education & Literacy
+name:"MILE AMRA SEBAK SANGHA
+regno:"S/2L/No.-43489 of 2015-2016,
+city="BERHAMPORE
+state1:"(WEST BENGAL)
+VILL14 MILE (TIKOR) POKALADANGA PSDAULATABD
+sectors:"Animal Husbandry, Dairying & Fisheries,Art & Culture,Children,Civic Issues,Disaster Management,Drinking Water,Education & Literacy,Aged/Elderly,Environment & Forests,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Micro Finance (SHGs),Minority Issues,Rural Development & Poverty Alleviation,Science & Technology,Sports,Tribal Affairs,Vocational Training,Water Resources,Women's Development & Empowerment,Youth Affairs,Land Resources,Panchayati Raj
+name:"6TH SENSE WELFARE SOCIETY
+regno:"S/IL/85744,
+city="BERHAMPORE
+state1:"(WEST BENGAL)
+130, NETAJI ROAD, P.OKHAGRA
+sectors:"Health & Family Welfare
+name:"95 Pally Association
+regno:"S/11169,
+city="Kolkata
+state1:(WEST BENGAL)
+state1:"70A, Rahim Ostagar Road, Kolkata-700045 Post Office-Lake Gardens, Police Station-Lake
+sectors:"Art & Culture,Education & Literacy,Sports,Youth Affairs
+name:"AABOHO
+regno:"153754,
+city="KOLKATA
+state1:(WEST BENGAL)
+AABOHO FLAT NO 702, 36 PALM AVENUE, BHUBANESHWAR APARTMENT, KAREA KOLKATA700019 West Bengal
+sectors:"Animal Husbandry, Dairying & Fisheries,Art & Culture,Children,Civic Issues,Disaster Management,Drinking Water,Education & Literacy,Aged/Elderly,Environment & Forests,Health & Family Welfare,HIV/AIDS,Human Rights,Information & Communication Technology,Labour & Employment,Legal Awareness & Aid,Micro Small & Medium Enterprises,Minority Issues,Panchayati Raj,Right to Information & Advocacy,Rural Development & Poverty Alleviation,Sports
+name:"AAFTAB E ALAM SOCIAL WELFARE SOCIETY"
+regno:"S/1L/95527",
+city="UKHRA
+state1:"(WEST BENGAL)
+PURE SITALPUR COLLIERY NO.6 P.O.- BAHULA, PIN- 713322
+sectors:"Art & Culture,Children,Drinking Water,Education & Literacy,Environment & Forests,Health & Family Welfare,Legal Awareness & Aid,Minority Issues,Rural Development & Poverty Alleviation,Urban Development & Poverty Alleviation,Women's Development & Empowerment,Youth Affairs
+name:"Aalo Rural Development Charitable Trust	IV
+regno:"00791 2014,
+city="Kolkata
+state1:"(WEST BENGAL)
+Nabagram Garia Post Panchpota Pin 700152
+sectors:"Animal Husbandry, Dairying & Fisheries,Aged/Elderly,Agriculture,Art & Culture,Biotechnology,Children,Civic Issues,Differently Abled,Disaster Management,Dalit Upliftment,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Land Resources,Micro Finance (SHGs),Minority Issues,Micro Small & Medium Enterprises
+name:"AAMAR GRAM
+regno:"1488/14,
+city="BOLPUR SANTINIKETAN 
+state1:"(WEST BENGAL)
+SHYAMBATI CANAL PAR FULDANGA SANTINIKETAN BOLPUR BIRBHUM PIN CODE 731235
+sectors:"Rural Development & Poverty Alleviation,Tribal Affairs,Women's Development & Empowerment
+name:"Aamra Susama Jalaprapat
+regno:"S/1L/25743,
+city="TAMLUK
+state1:"(WEST BENGAL)
+Vill- Mahisda : PO - Demarihat : PS-Tamluk Dist - EastMidnapur : Pin - 721668
+sectors:"Art & Culture,Children,Differently Abled,Disaster Management,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Micro Finance (SHGs),Panchayati Raj,Rural Development & Poverty Alleviation,Sports,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"AAPANJAN
+regno:"160400219/2018,
+city="Kolkata
+state1:"(WEST BENGAL)
+VILL- Beliadanga, PO- Dakshin Barasat, PS- Joynagar, Dist- South 4 Parganas, PIN- 743372, West Bengal.
+sectors:"Agriculture,Animal Husbandry, Dairying & Fisheries,Children,Education & Literacy,Aged/Elderly,Environment & Forests,Labour & Employment,Legal Awareness & Aid,Minority Issues,Rural Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"AARADHYA FOUNDATION
+regno:"49/2013,
+city="JALPAIGURI
+state1:"(WEST BENGAL)
+AARADHYA FOUNDATION CENTRE FOR HUMAN RESOURCE DEVELOPMENT HOSPITAL PARA P.O. MAYNAGURI DIST. JALPAIGURI PIN. 735224
+sectors:"Education & Literacy,Education & Literacy,Women's Development & Empowerment,Human Rights,Labour & Employment,Minority Issues
+name:"AARJAVA WELFARE SOCIETY
+regno:"S/2L/11898 of 2013-14,
+city="Kolkata
+state1:"(WEST BENGAL)
+W2 C(R), 2/3, PhaseIV B, Uday Shankar Sarani, Golfgreen, Kolkata 700095
+Art & Culture,Children,Differently Abled,Education & Literacy,Health & Family Welfare,HIV/AIDS,Nutrition,Any Other
+name:"AASHAR AALO
+regno:"IV -2,
+city="KOLKATA
+state1:"(WEST BENGAL)
+VILLAGE GABBERIA, POST OFFICE GABBERIA , POLICE STATION MANDIR BAZAR, PIN 743336, DISTRICT SOUTH 24 PARGANAS, WEST BENGAL
+sectors:"Animal Husbandry, Dairying & Fisheries,Aged/Elderly,Agriculture,Art & Culture,Biotechnology,Children,Civic Issues,Differently Abled,Disaster Management,Dalit Upliftment,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Land Resources,Micro Finance (SHGs),Minority Issues,Micro Small & Medium Enterprises
+name:"AASHRAY
+regno:"IV - 07658 OF 2012,
+city="SALT LAKE CITY
+state1:"(WEST BENGAL)
+BF127, SALT LAKE SECTOR2, SALT LAKE CITY, KOLKATA700091
+sectors:"Children,Education & Literacy,Health & Family Welfare,Vocational Training,Women's Development & Empowerment,Any Other,Urban Development & Poverty Alleviation
+name:"AASHRAY LOVING AND CARING	IV-020600221/2015,
+city="DURGAPUR
+state1:"(WEST BENGAL)
+19/20 VIVEKANAND ROAD, A-ZONE, DURGAPUR, WEST BENGAL. PIN 713204. MOBILE NO. 9609503434/9609600920
+sectors:"Animal Husbandry, Dairying & Fisheries,Environment & Forests,Any Other
+name:"Abak Sangha
+regno:"S/49589,
+city="Bolpur
+state1:"(WEST BENGAL)
+address:"Vill+P.0 - Chandidas Nanoor, Nanoor, Birbhum , 731301
+sectors:"Agriculture,Biotechnology,Micro Finance (SHGs),Science & Technology,Youth Affairs
+name:"ABDALPUR GREENLAND FARMERS CLUB
+regno:"S/2L/53114,
+city="DIAMOND HARBOUR
+state1:"(WEST BENGAL)
+address:"VILL. AND PO. ABDALPUR, PS. PARULIA COASTAL (D.H.), DIST. SOUTH 24 PARGANAS, PIN. 743368, W.B.
+sectors:"Art & Culture,Children,Disaster Management,Education & Literacy,Environment & Forests,Health & Family Welfare,Labour & Employment,Legal Awareness & Aid,New & Renewable Energy,Rural Development & Poverty Alleviation,Sports,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"ABDUL HAMID EDUCATIONAL TRUST
+regno:"6170-IV-2007,
+city="PURANDARPUR
+state1:"(WEST BENGAL)
+address:"VILL
+sectors:"Education & Literacy
+name:"ABDUS SATTAR SAMAJ KALYAN KENDRA
+regno:"S/1L/ NO. 29211 OF 2005 - 2006,
+city="BARDHAMAN
+state1:"(WEST BENGAL)
+address:"VILLTOLA , P.O.BAIDYAPUR , P.S.KALNA
+sectors:"Aged/Elderly,Art & Culture,Civic Issues,Differently Abled,Disaster Management,Education & Literacy,Health & Family Welfare,HIV/AIDS,Labour & Employment,Legal Awareness & Aid,Sports,Tribal Affairs,Youth Affairs,Any Other
+name:"ABHAASH DAKSHIN KOLKATA
+regno:"S IL 16417 OF 2003 2004,
+city="KOLKATA
+state1:"(WEST BENGAL)
+address:"A 52 RAMKRISHNANAGAR PO LASKARPUR GARIA KOLKATA 700 153	Art & Culture
+name:"ABINASH CHARITABLE TRUST
+regno:"4683,
+city="Kolkata
+state1:"(WEST BENGAL)
+address:"310 Canal Street, Laketown
+sectors:"Health & Family Welfare
+name:"Academy Theatre
+regno:"S/ 57137 of 1987-88,
+city="KOLKATA
+state1:"(WEST BENGAL)
+address:"REGD OFFICE: 177 NETAJI SUBHAS ROAD HOWRAH-711 101 CITY OFFICE : 21/4 ASWINI DUTTA ROAD KOKATA-700 029
+sectors:"Art & Culture,Children,Education & Literacy,Youth Affairs
+name:"Accord
+regno:"S/31117 OF 1980-81,
+city="BARRACKPORE
+state1:"(WEST BENGAL)
+address:"51/A, MIDDLE ROAD, SOUTH VIEW APARTMENT, GROUND FLOOR,BARRACKPORE,P.O. : NONACHANDANPUKUR, DIST. : 24 PARGANAS (NORTH),KOLKATA - 700122.	Education & Literacy,Health & Family Welfare
+name:"ACHARYA PADMASAGAR SURI CHARITABLE TRUST JIAGANJ
+regno:"02720,
+city="KOLKATA
+state1:"(WEST BENGAL)
+address:"2B, MOTITAL BASAK LANE KOLKATA700054
+sectors:"Data Not Found
+name:"Achintala Resham Khadi Gramin Unnayan Samity
+regno:"S/31687,
+city="MALDA
+state1:"(WEST BENGAL)
+VILL- ACHINTALA , P.O. - DEBIPUR ACHINTALA , P.S.- KALIACHAK DIST- MALDA , PIN - 732207.
+sectors:"Micro Small & Medium Enterprises
+name:"Acid Survivors & Women Welfare Foundation
+regno:"00962/2010,
+city="Kolkata
+state1:"(WEST BENGAL)	216 A J C Bose Road Room No. 2C PIN 700017
+sectors:"Women's Development & Empowerment
+name:"ACTS MINISTRIES
+regno:"6935/2007,
+city="Kharagpur
+state1:"(WEST BENGAL)
+address:"ACTS MISSION CENTER At - Saldanga, PO - Singaijomuna,PS - Keshiary, Dist - West Midnapur, Pin - 721133, WB, India	Art & Culture,Children,Differently Abled,Dalit Upliftment,Drinking Water,Education & Literacy,Health & Family Welfare,HIV/AIDS,Legal Awareness & Aid,Micro Finance (SHGs),Minority Issues,Micro Small & Medium Enterprises,Nutrition,Rural Development & Poverty Alleviation,Sports,Tribal Affairs,Vocational Training,Women's Development & Empowerment,Youth Affairs,Any Other
+name:"Adarsha Khadi pratisthan
+regno:"S/31728,
+city="Kolkata
+state1:"(WEST BENGAL)
+address:"Vill & P.O Sujapur,P.S.Kaliachak, Dist.malda PIN-732206
+sectors:"Micro Small & Medium Enterprises
+name:"ADARSHAPALLY NABAJIBAN SEBA PRATISTHAN
+regno:"S/1L69234,
+city="BIDHAN NAGAR
+state1:"(WEST BENGAL)
+address:"ADARSHAPALLY,P.O-ASWINI NAGAR,P.S-BAGUIATI
+sectors:"Art & Culture
+name:"ADDHYAYAN
+regno:"IV-02602 of 2015,
+city="SOUTH TWENTY FOUR PARGANAS
+state1:"(WEST BENGAL)
+address:"VILL - BELIADANGA (DASPARA) P.O. - DAKSHIN BARASAT P.S. - JOYNAGAR
+sectors:"Art & Culture,Children,Disaster Management,Drinking Water,Education & Literacy,Environment & Forests,Health & Family Welfare,Human Rights,Information & Communication Technology,Labour & Employment,Sports,Tourism,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"ddressing The Unaddressed
+regno:"1018,
+city="KOLKATA
+state1:"(WEST BENGAL)
+address:"Addressing the Unaddressed (India) NM44XQJYG, Ground Floor, 14 Panditiya Terrace, Kolkata, 700029, West Bengal, India
+Urban Development & Poverty Alleviation,Science & Technology
+name:"ADHIKAR
+regno:"03364,
+city="Kolkata
+state1:"(WEST BENGAL)
+address:"VIP Road,Abhaynagar(Opp-Radhanagar Bus Stand)Agartala,Tripura Pin-799005	Animal Husbandry, Dairying & Fisheries,Aged/Elderly,Agriculture,Art & Culture,Biotechnology,Children,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Micro Finance (SHGs),Minority Issues,Micro Small & Medium Enterprises,New & Renewable Energy,Rural sectors:"Development & Poverty Alleviation,Scientific & Industrial Research,Science & Technology,Tribal Affairs
+name:"Adibasi Sebashram And Rural Development Ballavpur
+regno:"S/1L/74241 of 2010-2011,
+city="Bolpur
+state1:"(WEST BENGAL)
+address:"Village Ballavpur Post Sriniketan PSSantiniketan 731236
+sectors:"Aged/Elderly,Art & Culture,Education & Literacy,Legal Awareness & Aid,Rural Development & Poverty Alleviation,Tribal Affairs,Aged/Elderly,Health & Family Welfare,Rural Development & Poverty Alleviation
+name:"ADIBASI SOCIAL WORKERS ASSOCIATION FOR SOCIAL ACTION NETWORK
+regno:"S/1L/18388/2003-04,
+city="Kolkata
+state1:"(WEST BENGAL)
+address:"Vill- Champakiari, PO-Kenduadih, PS-Bankura-Sadar, Dist- BANKURA, W. Bengal
+sectors:"Art & Culture,Education & Literacy,Health & Family Welfare,HIV/AIDS,Human Rights,Legal Awareness & Aid,Micro Finance (SHGs),Rural Development & Poverty Alleviation,Tribal Affairs,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"ADRITO FINANCE SERVICES
+regno:"190300814,
+city="HARINGHARA
+state1:"(WEST BENGAL)
+address:"VILL POSUBARNAPUR,WARD NO-2, PS-HARINGHATA	Micro Finance (SHGs),
+sectors:"Human Rights,Information & Communication Technology,Women's Development & Empowerment
+name:"ADVANCE AFFIRMATIVE MOVEMENT AND GLOBAL EDUCATION TRUST
+regno:"S/5165,
+city="Keshiary
+state1:"(WEST BENGAL)
+address:"De Keshiary
+sectors:"Education & Literacy
+name:"ADWINGS CONSULTANCY AND SOLUTIONS PRIVATE LIMITED
+regno:"U74900WB2014PTC202342,
+city="KOLKATA
+state1:"(WEST BENGAL)
+address:"N 353. G 33, BAISHNABGHATA,PATULI TOWNSHIP, KOLKATA700 094
+sectors:"Education & Literacy,Vocational Training
+name:"Agamoni Community Development Foundation
+regno:"W598245,
+city="Bishnupur I
+state1:"(WEST BENGAL)
+address:"Village: Enayetnagar, Post: Chak Enayetnagar.	Agriculture,Animal Husbandry, Dairying & Fisheries,Art & Culture,Biotechnology,Children,Civic Issues,Dalit Upliftment,Differently Abled,Disaster Management,Drinking Water,Education & Literacy,Aged/Elderly,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Labour & Employment,Legal Awareness & Aid,Micro Finance (SHGs),Micro Small & Medium Enterprises,Minority sectors:"Issues,New & Renewable Energy,Nutrition,Panchayati Raj,Right to Information & Advocacy,Rural Development & Poverty Alleviation
+name:"AGARPARA KATHAMALA
+regno:"S/1L/74228,
+city="KOLKATA
+state1:"(WEST BENGAL)
+address:"SOUTH STATION ROAD , MALAKAR PARA , NUTAN PALLY , PO AGARPARA , PSKHARDAHA ,KOLKATA -700109 ,WEST BENGAL
+sectors:"Art & Culture,Any Other
+name:"Agarpara Theatre Point
+regno:"S/1L/3515,
+city="Agarpara
+state1:"(WEST BENGAL)
+address:"C/O – Jaydip Bhowmick . Building – 5, Road 5, Sen Bagan P.O. – Agarpara, Kolkata – 700 109, West Bengal.	Data Not Found
+name:"Aghraner Nabanna	S/IL/35326,
+city="kolkata
+state1:"(WEST BENGAL)
+address:"1/1 E, Teli Para lane, Shyambazar, kolkata - 700004 Mailing Address : AS17/5, Arjunpur, Ashirbad Apartment, 2nd Floor, Flat-2B, Kolkata - 700059
+sectors:"Data Not Found
+name:"AGNI RURAL WELFARE SOCIETY
+regno:"S/1L/55059,
+city="kolkata
+state1:"(WEST BENGAL)
+address:"C/O-Dipankar Lahiri 47 school road Po-Dakshin Jagaddal Kolkata-700151	Animal Husbandry, Dairying & Fisheries,Aged/Elderly,Agriculture,Art & Culture,Biotechnology,Children,Civic Issues,Differently Abled,Disaster Management,Dalit Upliftment,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Land Resources,Micro Finance (SHGs),
+sectors:"Minority Issues,Micro Small & Medium Enterprises
+name:"AGNISH
+regno:"S/1L/44574 of 2007-2008,
+city="NEW BARRACKPORE
+state1:"(WEST BENGAL)
+address:"174/1 EAST KODALIYA SCHOOL ROAD NEWBARRACKPORE KOLKATA- 700131
+sectors:"Art & Culture
+name:"AGRADUT POLLY UNNAYAN SAMITY
+regno:"S/46724,
+city="Howrah
+state1:"(WEST BENGAL)
+address:"Vpo-Gaza
+sectors:"Animal Husbandry, Dairying & Fisheries,Agriculture,Children,Disaster Management,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,Housing,Human Rights,Labour & Employment,Micro Finance (SHGs),Micro Small & Medium Enterprises,Rural Development & Poverty Alleviation,Sports,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"AGRAGATI
+regno:"S/26356,
+city="Howrah
+state1:"(WEST BENGAL)
+address:"Village- Kalikata, PO- Rashpur, PS- Amta, Dist.- Howrah - 711401, West Bengal	Animal Husbandry, Dairying & Fisheries,Agriculture,Art & Culture,Children,Differently Abled,Disaster Management,Dalit Upliftment,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Legal Awareness & Aid,Minority Issues,Micro Small & Medium Enterprises,New & Renewable Energy,Nutrition,Panchayati sectors:"Rural Development & Poverty Alleviation,Science & Technology,Sports
+name:"AGRANI SANHGA AND PATHAGAR
+regno:"S/27556,
+city="EGRA (WEST BENGAL)
+address:"VILLJAGANNATHKARBAR, P.OPIRIJKHANBAR, P.SEGRA, DISTPURBA MEDINIPUR, PIN721422
+sectors:"Data Not Found
+name:"Agrani Sanket
+regno:"S/54262,
+city="kolkata(WEST BENGAL)
+address:"Vill - Mamudpur P.O. - Teghori Jotoviram P.S. - Tamluk Dist - Purba Madinipur State - West Bengal Pin - 721627
+sectors:"Children
+name:"AHAMADPUR SILK KHADI SILPA SAMITY
+regno:"S/34511,
+city="SURI (WEST BENGAL)
+address:"CENTRAL OFFICE. VILL P.O-TANTIPARA. P.S-CHANDRAPUR. PIN-731126
+sectors:"Micro Small & Medium Enterprises
+name:"AHEAD INITIATIVES
+regno:"U85300WB2009NPL134655,
+city="Kolkata (WEST BENGAL)	32/6 Gariahat Road (S)
+sectors:"Data Not Found
+name:"AHEAD KOLKATA
+regno:"S/24845,
+city="KOLKATA (WEST BENGAL)	P-30, PRINCE GOLAM MOHAMMED SHAH ROAD,PIN-CODE-700095
+sectors:"Data Not Found
+name:"Ahiritola Punascha Kala Kendra
+regno:"S/85866 of 1996-97,
+city="Kolkata (WEST BENGAL)	17/A Ananda Khan Lane, Ahiritola Kolkata- 700005	Art & Culture
+name:"AHMADPUR SPORTS COMPLEX
+regno:"S/1L/28736,
+city="AHMADPUR (WEST BENGAL)	VillP.O- Ahmadpur , P.S- Sainthia , Dist – Birbhum , Pin- 731201 (W.B).	Women's Development & Empowerment,Youth Affairs,Sports,Vocational Training,Water Resources,Education & Literacy,Health & Family Welfare,Drinking Water,Agriculture,Animal Husbandry, Dairying & Fisheries,Art & Culture,Children,HIV/AIDS,Panchayati Raj,Science & Technology,Tribal Affairs,Any Other
+name:"AII India Council ofTechnical Education and Technology
+regno:"IV 5400 / 15,
+city="kolkata (WEST BENGAL)	Uttra Kowgachi Shyamnagar	Education & Literacy,Health & Family Welfare,HIV/AIDS,Human Rights,Information & Communication Technology,Labour & Employment,Micro Finance (SHGs),Micro Small & Medium Enterprises,Nutrition,Panchayati Raj,Right to Information & Advocacy,Rural Development & Poverty Alleviation,Scientific & Industrial Research,Science & Technology,Vocational Training,Women's Development & Empowerment,Youth Affairs,Any Other
+name:"AIKATAN SANGHA
+regno:"S/39536,
+city="JAYANAGAR (WEST BENGAL)	VILL	Drinking Water,Education & Literacy,Any Other
+name:"AIKBDSWT (Silpi Sansad)
+regno:"190305077,
+city="Nabadwip (WEST BENGAL)	Village Haritala Kolerdanga, Post and Police StationNabadwip, DistrictNadia, Pin741302, West Bengal, India	Art & Culture
+name:"AIKYATAN DEVELOPMENT SOCIETY
+regno:"S/95274,
+city="Bardhaman (WEST BENGAL)	At-DHARAPARA P.O-GUSKARA P.S-AUSGRAM DIST-PURBA BARDHAMAN STATE-W.B PIN-713128	Agriculture,Civic Issues,Disaster Management,Drinking Water,Environment & Forests,Health & Family Welfare,Nutrition,Rural Development & Poverty Alleviation,Science & Technology,Vocational Training,Women's Development & Empowerment
+name:"AIKYATAN SOCIAL DIGNITY & WELFARE SOCIETY
+regno:"S/IL/19163,
+city="KOLKATA (WEST BENGAL)	KAIRI SUPER MARKET, FAST FLOOR, KHARUA BAZAR, POST-CHINSURAH, DIST- HOOGHILY, WEST BENGAL.	Agriculture,Art & Culture,Children,Disaster Management,Education & Literacy,Health & Family Welfare,Human Rights,Nutrition,Tourism,Vocational Training,Women's Development & Empowerment
+name:"AIM ART ILLUMINATES MANKIND
+regno:"S/IL/16764,
+city="KOLKATA (WEST BENGAL)	234, Acharya Prafulla Chandra Road, Kolkata 700004	Art & Culture
+name:"AINA INFOTECH
+regno:"272,
+city="FALTA (WEST BENGAL)	VILL MALIPUKUR, PO AUSBERIA, PS- FALTA, DIST - SOUTH 24 PARGANAS	Agriculture,Education & Literacy,Children,Information & Communication Technology,Rural Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"AINAA CULTURAL CENTRE
+regno:"S/IL /68398,
+city="Barddhaman (WEST BENGAL)	47/A. Kalibazar, Burdwan 713101	Art & Culture,Art & Culture
+name:"AIRLIFT TRAINING INSTITUTE LLP
+regno:"AAL-5434,
+city="KOLKATA (WEST BENGAL)	53C/15, DR. SURESH CHANDRA BANERJEE ROAD, BELIAGHATA	Education & Literacy,Labour & Employment
+name:"AIWC SOUTH CALCUTTA CONSTITUENT BRANCH
+regno:"S/22709,
+city="KOLKATA (WEST BENGAL)	187 SARAT BOSE ROAD ,KOLKATA-29	Women's Development & Empowerment
+name:"ajaya kasturba mahila unnayan samiti
+regno:"S/1L/51906 of 2008-09XX,
+city="CONTAI (WEST BENGAL)	VILLAGE .AJAYA, P.O.AJAYA, P.S.KHEJURI,	Art & Culture,Children,Drinking Water,Health & Family Welfare,Sports,Vocational Training,Any Other
+name:"AJIT MEMORIAL TRUST
+regno:"IV - 190300385/2017,
+city="KOLKATA (WEST BENGAL)	34/2 Ghosh Para Road, P.S. : Shyam Nagar 24 Parganas North Pin : 743127	Children,Civic Issues,Differently Abled,Drinking Water,Education & Literacy,Health & Family Welfare,Housing,Human Rights,Information & Communication Technology,Labour & Employment,Micro Small & Medium Enterprises,Science & Technology,Youth Affairs,Any Other
+name:"AKABPUR SAMMELANI
+regno:"S/24034 OF 1978-79,
+city="Burdwan (WEST BENGAL)	Akabpur Sammelani, P.O. Nadanghat, D.T. Burdwan, West Bengal, Pin - 713515	Agriculture
+name:"AKHRA SREE SREE RADHAGOBINDA JEW MANDIR
+regno:"S/1L/91077,
+city="DAINHAT (WEST BENGAL)	VILL P.O-AKHRA P.S-KATWA	Animal Husbandry, Dairying & Fisheries,Aged/Elderly,Agriculture,Art & Culture,Biotechnology,Children,Drinking Water,Education & Literacy,Environment & Forests,Health & Family Welfare,New & Renewable Energy,Rural Development & Poverty Alleviation,Science & Technology,Sports,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment,Youth Affairs,Human Rights,Minority Issues
+name:"Akshaynagar Pallisri Sangha
+regno:"S/62847,
+city="Kolkata (WEST BENGAL)	Village	Animal Husbandry, Dairying & Fisheries,Agriculture,Children,Disaster Management,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Micro Finance (SHGs),New & Renewable Energy,Rural Development & Poverty Alleviation,Vocational Training
+name:"AL AMEEN EDUCATION COUNCIL
+regno:"IV/06083/2008,
+city="HOWRAH (WEST BENGAL)	VILLAG. KHALATPUR, POST. DIHIBHURSUT, P.S.UDAYNARAYANPUR, DIST. HOWRAH, SUB DIVISION. ULUBERIA	Education & Literacy,Children,Health & Family Welfare
+name:"Al Ameen Mission
+regno:"S/54713/1986-87,
+city="Howrah (WEST BENGAL)	Vill.- Khalatpur, P.O.- Dihibhursut, P.S.- Udyanarayanpur, Dist.- Howrah, Pin.- 712408	Children,Education & Literacy,Health & Family Welfare
+name:"Al Ameen Mission Trust
+regno:"IV/01454/2009,
+city="Howrah (WEST BENGAL)	Vill.- Khalatpur, P.O.- Dihibhursut, P.S.- Udyanarayanpur, Dist.- Howrah, Pin.- 712408	Children,Education & Literacy,Health & Family Welfare
+name:"AL Habeeb Foundation
+regno:"IV-02564 of 2015,
+city="Kolkata (WEST BENGAL)	17 Ekbalpur Road Kolkata 700023	Education & Literacy,Food Processing,Health & Family Welfare,HIV/AIDS,Information & Communication Technology,Art & Culture,Children
+name:"AL IMRAN SOCIETY
+regno:"S/2L/26189 OF 2014-15,
+city="SAINTHIA (WEST BENGAL)	VILL -DUNA P.O-ULKUNDA,P.S- MAYURESWAR DIST-BIRBHUM WEST BENGAL PIN-731234	Art & Culture,Education & Literacy
+name:"AL KISHAN MICRO INDIA
+regno:"IV -03396/16,
+city="KOLKATA (WEST BENGAL)	VILL. AND P.O.- DARIYAPUR, P.S.- AMDANGA, DIST.- NORTH 24 PARGANAS	Agriculture,Micro Finance (SHGs)
+name:"AL MADINA MARKET EDUCATION & WELFARE SOCIETY
+regno:"S/81666,
+city="Memari (WEST BENGAL)	Madina Market P.O.	Data Not Found
+name:"AL MADINA MISSION TRUST
+regno:"2145/2013,
+city="MIDNAPUR (WEST BENGAL)	VILL RAGHUNATHCHAWK,KESHPUR,PASCHIM MEDINIPUR,PIN 721150	Any Other
+name:"AL MIZAN EDUCATIONAL AND WELFARE TRUST
+regno:"8769,
+city="DEGANGA (WEST BENGAL)	VILL MOHANPUR PO FAZILPUR PS GEGANGA	Data Not Found
+name:"	Al-Ameen Memorial Society For Education & Health Programme
+regno:"S/1L/20535,
+city="BARUIPUR (WEST BENGAL)	SHAJAHAN ROAD, BARUIPUR, KOLKATA- 700144	Data Not Found
+name:"	AL-AMIN MINORITY DEVELOPMENT TRUST
+regno:"00240/2013,
+city="MAYURESWAR (WEST BENGAL)	VILLAGE KRISHNANAGAR, POST OFFICE MAHURAPUR, POLICE STATION MAYURESWAR, SUB DIVISION RAMPURHAT, DISTRICT BIRBHUM, PIN 731218	Agriculture,Animal Husbandry, Dairying & Fisheries,Art & Culture,Education & Literacy
+name:"AL-FARAH MISSION
+regno:"IV-01399/13,
+city="JANGIPUR (WEST BENGAL)	VILL KAMDEVPUR (SITAPUR DARBAR SHARIF) PO J.B.PUR PS JANGIPUR	Data Not Found
+name:"AL-JAMIATUL QADRIA MISBAHUL ULOOM JANTA HAT
+regno:"S/1L/36172,
+city="RAIGANJ (WEST BENGAL)	AT- JANTA HAT , PO- VIDDIYANANDPUR PS CHAKULIA DIST UTTAR DINAJPUR WEST BENGAL PIN 733208	Data Not Found
+name:"ALAKENDU BODH NIKETAN RESIDENTIAL
+regno:"S-23407,
+city="Kolkata (WEST BENGAL)	P 1/ 4/ 1,CIT Scheme,Kankurgachi,Kolkata-700054	Data Not Found
+name:"Alambazar Arya Pustakalya
+regno:"S/71500 of 1992-1993,
+city="Kolkata (WEST BENGAL)	68, S.P. Banerjee Road	Data Not Found
+name:"ALBEKA FOUNDATION
+regno:"130100148/2016,
+city="Krishnanagar (WEST BENGAL)	Vill.- 1No. Natun Fulia, P.O.- 2 No. Natun Fulia, Dist.- Nadia, West Bengal, Pin-741402.	Children,Education & Literacy,Aged/Elderly,Health & Family Welfare,Human Rights,Rural Development & Poverty Alleviation,Art & Culture,Sports
+name:"ALINAN RAMAKRISHANA VIVEKANANDA YUVA SANGHA
+regno:"S/18799,
+city="Kolkata (WEST BENGAL)	VILL PO ALINAN PS TAMLUK DIST PURBA MEDINIPUR PIN 721137 WEST BENGAL	Children,Drinking Water,Legal Awareness & Aid,Micro Small & Medium Enterprises,Right to Information & Advocacy,Water Resources,Women's Development & Empowerment
+name:"Alipore AHANA
+regno:"S/IL/93489,
+city="Kolkata (WEST BENGAL)	100/3B, Alipore Road, Kolkata -700027 PO - Alipore	Data Not Found
+name:"Alipurduar Anubhab Foundation
+regno:"S/1L/97571,
+city="Alipurduar (WEST BENGAL)	Newtown, Park Road by lane, PO - Alipurduar Court, Dt - Alipurduar, PIN 736122, West Bengal	Aged/Elderly,Art & Culture,Children,Civic Issues,Education & Literacy,Health & Family Welfare,Science & Technology,Sports,Women's Development & Empowerment
+name:"Alipurduar College
+regno:"821-Edn,
+city="Alipurduar (WEST BENGAL)	Alipurduar College, P.O. Alipurduar Court, Dist, Alipurduar, PIN- 736122, West Bengal, India	Data Not Found
+name:"Alipurduar Geographical Society
+regno:"S/2L/22326 of 2014-2015,
+city="Alipurduar (WEST BENGAL)	Thanamore, PO.:Alipurduar Court	Agriculture,Animal Husbandry, Dairying & Fisheries,Dalit Upliftment,Disaster Management,Education & Literacy,Aged/Elderly,Environment & Forests,Health & Family Welfare,Information & Communication Technology,New & Renewable Energy,Panchayati Raj,Rural Development & Poverty Alleviation,Tourism,Tribal Affairs,Vocational Training,Women's Development & Empowerment
+name:"ALIPURDUAR MANABIK MUKH
+regno:"S/1L/98431 OF 2012-2013,
+city="ALIPURDUAR (WEST BENGAL)	SANTINAGAR,PURAN BAZAR PO DIST- ALIPURDUARPIN-736121	Children,Civic Issues,Differently Abled,Disaster Management,Education & Literacy,Aged/Elderly,Environment & Forests,Health & Family Welfare,HIV/AIDS,Human Rights,Labour & Employment,Legal Awareness & Aid,Rural Development & Poverty Alleviation,Sports,Tourism,Tribal Affairs,Women's Development & Empowerment,Youth Affairs,Any Other
+name:"ALIPURDUAR RURAL AND TRIBAL DEVELOPMENT KALLYAN SAMITI
+regno:"S/1L/62474,
+city="ALIPURDUAR (WEST BENGAL)	BIDHAN PALLY P.O DIST: ALIPURDUAR PIN:736121	Art & Culture,Children,Civic Issues,Differently Abled,Disaster Management,Drinking Water,Education & Literacy,Aged/Elderly,Environment & Forests,Health & Family Welfare,Housing,Information & Communication Technology,Labour & Employment,Legal Awareness & Aid,Micro Small & Medium Enterprises,Nutrition,Right to Information & Advocacy,Rural Development & Poverty Alleviation,Sports,Tourism,Tribal Affairs,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment,Youth Affairs
+name:"ALIPURDUAR SANGHASREE YUBA NATYA SANGSTHA
+regno:"S/1L/72280,
+city="ALIPURDUAR (WEST BENGAL)	Maya Talkies Road, Dr. Damodar DebnathSarani, Post	Data Not Found
+name:"ALL BACKWARD CLASS RELIEF AND DEVELOPMENT MISSION
+regno:"S/94433,
+city="KOLKATA (WEST BENGAL)	17A, GIRISH CHANDRA BOSE ROAD, KOLKATA- 700014, West Bengal, India.	Any Other
+name:"ALL BENGAL SANSKRIT LOVERS ASSOCIATION
+regno:"S/2L/29318/2014-2015,
+city="BARDDHAMAN (WEST BENGAL)	F6 Balaji Housing Friends Park St Xaviers Road Burdwan West Bengal PIN713103	Children,Differently Abled,Disaster Management,Education & Literacy,Environment & Forests,Information & Communication Technology,Legal Awareness & Aid,Sports,Vocational Training,Women's Development & Empowerment
+name:"ALL BENGAL VILLAGE LEVEL ENTERPRENEURS WELFARE ORGANISATION
+regno:"S/1L/72962,
+city="Egra (WEST BENGAL)	Amitava Jana PGSW with Medical consultant Vill-Aklabad Ward no 09 P.O-egra Dist.PurbaMedinipur pin 721429	Human Rights,Information & Communication Technology,Labour & Employment,Panchayati Raj,Right to Information & Advocacy,Urban Development & Poverty Alleviation,Youth Affairs
