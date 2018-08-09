@@ -14,113 +14,113 @@ var ngoschema=new mongoose.Schema({
     sectors:String
   });
   var ngo=mongoose.model("ngo",ngoschema);
-  ngo.create(
-    {
-      name:"AADIMJATI KHAOKLUK SAMAJ SEBA PAMANG MAHARAJ SOCIETY",
-      regno:"6835",
-      city:"KOWAIFANG",
-      state1:" (TRIPURA)",
-      address:"Kowaifang, P.O.: Kowaifang, P.S.: Baikhora,Santir Bazar, Dist.: South Tripura. PIN-799141",
-      sectors:"Data Not Found"
-
-
-
-    },function(err,ngo)
-      {
-         if(err)
-         {
-           console.log(err);
-         }
-         else
-           {
-             console.log(ngo);
-           }
-         });
-
-
-  ngo.create(
-    {
-      name:"Abalamban",
-      regno:"1500",
-      city:"Agartala",
-      state1:"(TRIPURA)",
-      address:"Abalamban, Airport Road, Barjala(Near TRTC Workshop), Agartala,Tripura,Pin-799002",
-      sectors:"Environment & Forests,Vocational Training,Women's Development & Empowerment"
-
-    },function(err,ngo)
-      {
-         if(err)
-         {
-           console.log(err);
-         }
-         else
-           {
-             console.log(ngo);
-           }
-         });
-
-ngo.create(
-{
-  name:"ABHEL HODA KALYAN SAMITY",
-  regno:"5551",
-  city:"Amarpur",
-  state1:" (TRIPURA)",
-  address:"Taidu Bari",
-  sectors:"Agriculture,Animal Husbandry, Dairying & Fisheries,Art & Culture,Children,Civic Issues,Differently Abled,Environment & Forests,Health & Family Welfare,Legal Awareness & Aid,Micro Finance (SHGs),Minority Issues,Sports,Tribal Affairs,Vocational Training,Water Resources,Women's Development & Empowerment,Youth Affairs"
-
-},function(err,ngo)
-  {
-     if(err)
-     {
-       console.log(err);
-     }
-     else
-       {
-         console.log(ngo);
-       }
-     });
-
-ngo.create(
-  {
-    name:"ADARSHA SANGHA",
-    regno:"3196",
-    city:"DHARMANAGAR",
-    state1:"(TRIPURA)",
-    address:"VILL-DEWANPASHA, PO-DEWANPASHA, PS-DHARMANAGAR",
-    sectors:"Animal Husbandry, Dairying & Fisheries,Agriculture,Art & Culture,Children,Disaster Management,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Micro Finance (SHGs),Micro Small  & Medium Enterprises,New & Renewable Energy,Panchayati Raj,Rural Development & Poverty Alleviation,Science & Technology,Sports,Tribal Affairs,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment"
-
-  },function(err,ngo)
-    {
-       if(err)
-       {
-         console.log(err);
-       }
-       else
-         {
-           console.log(ngo);
-         }
-       });
-
-  ngo.create(
-    {
-      name:"Abhoy Mission",
-      regno:"1947 under 1860 Socities Act",
-      City:"Agartala",
-      state1:"(TRIPURA)",
-      address:"Abhoy Mission, Ramnagar Road No. 1, P.O- Ramnagar, Agartala, Tripura - 799002.",
-      sectors:"Children,Differently Abled,Education & Literacy,Aged/Elderly,Vocational Training,Women's Development & Empowerment"
-
-    },function(err,ngo)
-      {
-         if(err)
-         {
-           console.log(err);
-         }
-         else
-           {
-             console.log(ngo);
-           }
-         });
+//   ngo.create(
+//     {
+//       name:"AADIMJATI KHAOKLUK SAMAJ SEBA PAMANG MAHARAJ SOCIETY",
+//       regno:"6835",
+//       city:"KOWAIFANG",
+//       state1:" (TRIPURA)",
+//       address:"Kowaifang, P.O.: Kowaifang, P.S.: Baikhora,Santir Bazar, Dist.: South Tripura. PIN-799141",
+//       sectors:"Data Not Found"
+//
+//
+//
+//     },function(err,ngo)
+//       {
+//          if(err)
+//          {
+//            console.log(err);
+//          }
+//          else
+//            {
+//              console.log(ngo);
+//            }
+//          });
+//
+//
+//   ngo.create(
+//     {
+//       name:"Abalamban",
+//       regno:"1500",
+//       city:"Agartala",
+//       state1:"(TRIPURA)",
+//       address:"Abalamban, Airport Road, Barjala(Near TRTC Workshop), Agartala,Tripura,Pin-799002",
+//       sectors:"Environment & Forests,Vocational Training,Women's Development & Empowerment"
+//
+//     },function(err,ngo)
+//       {
+//          if(err)
+//          {
+//            console.log(err);
+//          }
+//          else
+//            {
+//              console.log(ngo);
+//            }
+//          });
+//
+// ngo.create(
+// {
+//   name:"ABHEL HODA KALYAN SAMITY",
+//   regno:"5551",
+//   city:"Amarpur",
+//   state1:" (TRIPURA)",
+//   address:"Taidu Bari",
+//   sectors:"Agriculture,Animal Husbandry, Dairying & Fisheries,Art & Culture,Children,Civic Issues,Differently Abled,Environment & Forests,Health & Family Welfare,Legal Awareness & Aid,Micro Finance (SHGs),Minority Issues,Sports,Tribal Affairs,Vocational Training,Water Resources,Women's Development & Empowerment,Youth Affairs"
+//
+// },function(err,ngo)
+//   {
+//      if(err)
+//      {
+//        console.log(err);
+//      }
+//      else
+//        {
+//          console.log(ngo);
+//        }
+//      });
+//
+// ngo.create(
+//   {
+//     name:"ADARSHA SANGHA",
+//     regno:"3196",
+//     city:"DHARMANAGAR",
+//     state1:"(TRIPURA)",
+//     address:"VILL-DEWANPASHA, PO-DEWANPASHA, PS-DHARMANAGAR",
+//     sectors:"Animal Husbandry, Dairying & Fisheries,Agriculture,Art & Culture,Children,Disaster Management,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Information & Communication Technology,Legal Awareness & Aid,Labour & Employment,Micro Finance (SHGs),Micro Small  & Medium Enterprises,New & Renewable Energy,Panchayati Raj,Rural Development & Poverty Alleviation,Science & Technology,Sports,Tribal Affairs,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment"
+//
+//   },function(err,ngo)
+//     {
+//        if(err)
+//        {
+//          console.log(err);
+//        }
+//        else
+//          {
+//            console.log(ngo);
+//          }
+//        });
+//
+//   ngo.create(
+//     {
+//       name:"Abhoy Mission",
+//       regno:"1947 under 1860 Socities Act",
+//       City:"Agartala",
+//       state1:"(TRIPURA)",
+//       address:"Abhoy Mission, Ramnagar Road No. 1, P.O- Ramnagar, Agartala, Tripura - 799002.",
+//       sectors:"Children,Differently Abled,Education & Literacy,Aged/Elderly,Vocational Training,Women's Development & Empowerment"
+//
+//     },function(err,ngo)
+//       {
+//          if(err)
+//          {
+//            console.log(err);
+//          }
+//          else
+//            {
+//              console.log(ngo);
+//            }
+//          });
 
 
 //       {
