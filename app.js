@@ -582,7 +582,7 @@ app.get("/home/andhara",function(req,res)
 
 app.get("/home/madhaya",function(req,res)
 {
-   const regex = new RegExp(escapeRegExp("MADHAYA PRADESH"), 'gi');
+   const regex = new RegExp(escapeRegExp("MADHYA PRADESH"), 'gi');
   ngo.find({ "state1": regex }, function(err, foundngo) {
          if(err) {
            console.log("not found");
@@ -1104,6 +1104,7 @@ app.get("/searchbyname",function(req,res)
 {
   if(req.query.name)
   {
+    var l1;
     const regex = new RegExp(escapeRegExp(req.query.name), 'gi');
     console.log(regex);
     ngo.find({ "name": regex }, function(err, foundngo) {
@@ -1113,14 +1114,21 @@ app.get("/searchbyname",function(req,res)
                console.log(err);
 
            } else {
+             l1=foundngo.length;
+             if(l1>0){
              console.log("found");
               res.render("results.ejs", { foundngo: foundngo });
            }
+           else {
+            res.render("error.ejs");
+           }
+         }
        });
   }
 });
 app.get("/searchbycity",function(req,res)
 {
+  var l1;
   if(req.query.city)
   {
     const regex = new RegExp(escapeRegExp(req.query.city), 'gi');
@@ -1132,14 +1140,20 @@ app.get("/searchbycity",function(req,res)
                console.log(err);
 
            } else {
+             l1=foundngo.length;
+             if(l1>0){
              console.log("found");
               res.render("results.ejs", { foundngo: foundngo });
            }
+           else {
+            res.render("error.ejs");
+           }}
        });
   }
 });
 app.get("/searchbyreg",function(req,res)
 {
+  var l1;
   if(req.query.reg)
   {
     const regex = new RegExp(escapeRegExp(req.query.reg), 'gi');
@@ -1151,16 +1165,24 @@ app.get("/searchbyreg",function(req,res)
                console.log(err);
 
            } else {
-             console.log("found");
-              res.render("results.ejs", { foundngo: foundngo });
+              l1=foundngo.length;
+            if(l1>0){
+            console.log("found");
+             res.render("results.ejs", { foundngo: foundngo });
+          }
+          else {
+           res.render("error.ejs");
+          }
            }
        });
   }
 });
 app.get("/searchbysector",function(req,res)
 {
+  var l1;
   if(req.query.sector)
   {
+    var l1;
     const regex = new RegExp(escapeRegExp(req.query.sector), 'gi');
     console.log(regex);
     ngo.find({ "sectors": regex }, function(err, foundngo) {
@@ -1170,14 +1192,21 @@ app.get("/searchbysector",function(req,res)
                console.log(err);
 
            } else {
+             l1=foundngo.length;
+             if(l1>0){
              console.log("found");
               res.render("results.ejs", { foundngo: foundngo });
+           }
+           else {
+            res.render("error.ejs");
+           }
            }
        });
   }
 });
 app.get("/searchbystate",function(req,res)
 {
+var l1;
   if(req.query.state)
   {
     const regex = new RegExp(escapeRegExp(req.query.state), 'gi');
@@ -1189,9 +1218,15 @@ app.get("/searchbystate",function(req,res)
                console.log(err);
 
            } else {
+             l1=foundngo.length;
+             if(l1>0){
              console.log("found");
               res.render("results.ejs", { foundngo: foundngo });
            }
+           else {
+            res.render("error.ejs");
+           }
+         }
        });
   }
 });
