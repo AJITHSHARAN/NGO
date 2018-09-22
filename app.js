@@ -205,107 +205,108 @@ var ngoschema=new mongoose.Schema({
 //            console.log(ngo);
 //          }
 //        });
-//
-//   ngo.create(
-//     {
-//       name:"AASHRAYA	KAM(M)",
-//       regno:"/240/A-23/133 of 2010-11",
-//       city:"Guwahati",
-//       state1:"(ASSAM)",
-//       address:"Santipur Hill Side, PNGB Road, (Near Pragati High School), Bharalumukh, Guwahati, Dist.- Kamrup (M)",
-//       sectors:"Data Not Found"
-//     },function(err,ngo)
-//       {
-//          if(err)
-//          {
-//            console.log(err);
-//          }
-//          else
-//            {
-//              console.log(ngo);
-//            }
-//          });
 
-// {
-//   name:"BARRACKPORE DIOCESAN BOARD OF SOCIAL SERVICES",
-//   	regno:"S/1L/27538 OF 2004-2005",
-//     city:"BARRACKPORE",
-//     state1:"WEST BENGAL",
-//     address:"86, MIDDLE ROAD, BARRACKPORE",
-//     sectors:"Education & Literacy,Health & Family Welfare,Nutrition,Aged/Elderly"
-//
-// },function(err,ngo)
-//   {
-//      if(err)
-//      {
-//        console.log(err);
-//      }
-//      else
-//        {
-//          console.log(ngo);
-//        }
-//      });
-//      ngo.create(
-//    {
-//      name:"ST PETERS VOCATIONAL TRAINING CENTRE",
-// regno:"S/2L/41116 OF 2015-2016",
-// city:"KOLKATA",
-// state1:"WEST BENGAL",
-// address:"KULPI ROAD, P.O AND P.S BARUIPUR",
-// sectors:"Education & Literacy"
-//
-//    },function(err,ngo)
-//      {
-//         if(err)
-//         {
-//           console.log(err);
-//         }
-//         else
-//           {
-//             console.log(ngo);
-//           }
-//         });
-//         ngo.create(
-//       {
-//         name:"Institute of Computer Literacy and Training",
-//   regno:"IV - 150100208 / 2016",
-//   city:"Badkulla",
-//   state1:"WEST BENGAL",
-//   address:"SH 11, Hospital More, P.O.Badkulla , DistNadiaStateWest Bengal, Pin741121",
-//   sectors:"Education & Literacy"
-//
-//       },function(err,ngo)
-//         {
-//            if(err)
-//            {
-//              console.log(err);
-//            }
-//            else
-//              {
-//                console.log(ngo);
-//              }
-//            });
-//            ngo.create(
-//          {
-//            name:"RAHARA PASCHIMPARA SOCIAL CULTURAL ATHLETIC ASSOCIATION",
-//  regno:"S/99626",
-//  city:"KHARDAH",
-//  state1:"WEST BENGAL",
-//  address:"RAHARA , PASCHIMPARA , POST RAHARA , KOLKATA700118",
-//  sectors:"Housing"
-//
-//          },function(err,ngo)
-//            {
-//               if(err)
-//               {
-//                 console.log(err);
-//               }
-//               else
-//                 {
-//                   console.log(ngo);
-//                 }
-//               });
-//
+  ngo.create(
+    {
+      name:"Anbalayam",
+      regno:"1150/2003",
+      City:"Moolakulam",
+      state:"(PUDUCHERRY)",
+      address:"140 (new no 78), Villianur Road Moolakulam Puducherry",
+      sectors:"Children,Education & Literacy,Rural Development & Poverty Alleviation,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment"
+  },function(err,ngo)
+      {
+         if(err)
+         {
+           console.log(err);
+         }
+         else
+           {
+             console.log(ngo);
+           }
+         });
+  ngo.create(
+{
+  name:"Anbarasi madhar sangam",
+  regno:"9 of 1969",
+  name:"Puducherry",
+  state1:"(PUDUCHERRY)",
+  address:"No.56, Eswaran Kovil Street, Marie Oulgareat, Puducherry",
+  sectors:"Data Not Found"
+
+},function(err,ngo)
+  {
+     if(err)
+     {
+       console.log(err);
+     }
+     else
+       {
+         console.log(ngo);
+       }
+     });
+     ngo.create(
+   {
+     name:"ADECOM Network",
+     regno:"108",
+     city:"Pondicherry",
+     state1:"(PUDUCHERRY)",
+     address:"Plot. No.26 , Fourth Cross street, Extn., Mothilal Nagar, Moolakulam, Pondicherry -605 010",
+     sectors:"Right to Information & Advocacy,Rural Development & Poverty Alleviation,Women's Development & Empowerment,Children,Dalit Upliftment,Environment & Forests,Legal Awareness & Aid,Panchayati Raj,Vocational Training",
+
+
+   },function(err,ngo)
+     {
+        if(err)
+        {
+          console.log(err);
+        }
+        else
+          {
+            console.log(ngo);
+          }
+        });
+        ngo.create(
+      {
+        name:"Adishakti Laboratory For Theatre Art Research",
+        regno:"50913",
+        city:"Puducherry",
+         state1:"(PUDUCHERRY)",
+        address:"Adwaitam, No.8, Appavou Nagar, Vazhakulam, Puducherry - 605 012",
+        sectors:"Art & Culture"
+
+      },function(err,ngo)
+        {
+           if(err)
+           {
+             console.log(err);
+           }
+           else
+             {
+               console.log(ngo);
+             }
+           });
+           ngo.create(
+         {
+           name:"Akshaya Self Help Groups Confederation",
+           regno:"948/2010",
+           city:"Puducherry",
+            state1:"(PUDUCHERRY)",
+            address:"10, 9th Cross East, Rainbow Nagar, Puducherry-605011",
+           sectors:"Micro Finance (SHGs),Panchayati Raj,Vocational Training"
+
+         },function(err,ngo)
+           {
+              if(err)
+              {
+                console.log(err);
+              }
+              else
+                {
+                  console.log(ngo);
+                }
+              });
+
 //               ngo.create(
 //             {
 //               name:"10 D EDUCATIONAL DEVELOPMENT TRUST",
@@ -367,72 +368,55 @@ var ngoschema=new mongoose.Schema({
 //                          }
 //                        });
 
-  // ngo.create(
-  // {
-  //   name:"AdityaNatyaAcademy",
-  //   state1:"Andaman & Nicobar Islands",
-  //   regno:"888",
-  //   city:"Port Blair" ,
-  //   address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //     sectors:"Data Not Found"
-  // },function(err,ngo)
-  // {
-  //   if(err)
-  //   {
-  //     console.log(err);
-  //   }
-  //   else
-  //     {
-  //       console.log(ngo);
-  //     }
-  //   });
-  //   ngo.create(
-  //   {
-  //     name:"AdityaNatyaAcademy",
-  //     state1:"Andaman & Nicobar Islands",
-  //     regno:"888",
-  //     city:"Port Blair" ,
-  //     address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //       sectors:"Data Not Found"
-  //   },function(err,ngo)
-  //   {
-  //     if(err)
-  //     {
-  //       console.log(err);
-  //     }
-  //     else
-  //       {
-  //         console.log(ngo);
-  //       }
-  //     });
-  //     ngo.create(
-  //     {
-  //       name:"AdityaNatyaAcademy",
-  //       state1:"Andaman & Nicobar Islands",
-  //       regno:"888",
-  //       city:"Port Blair" ,
-  //       address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
-  //         sectors:"Data Not Found"
-  //     },function(err,ngo)
-  //     {
-  //       if(err)
-  //       {
-  //         console.log(err);
-  //       }
-  //       else
-  //         {
-  //           console.log(ngo);
-  //         }
-  //       });
+//   // ngo.create(
+//   // {
+//   //   name:"AdityaNatyaAcademy",
+//   //   state1:"Andaman & Nicobar Islands",
+//   //   regno:"888",
+//   //   city:"Port Blair" ,
+//   //   address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
+//   //     sectors:"Data Not Found"
+//   // },function(err,ngo)
+//   // {
+//   //   if(err)
+//   //   {
+//   //     console.log(err);
+//   //   }
+//   //   else
+//   //     {
+//   //       console.log(ngo);
+//   //     }
+//   //   });
+//   //   ngo.create(
+//   //   {
+//   //     name:"AdityaNatyaAcademy",
+//   //     state1:"Andaman & Nicobar Islands",
+//   //     regno:"888",
+//   //     city:"Port Blair" ,
+//   //     address:"31 M.G. Road, Opp. Sun Sea Resort, Middle Point.",
+//   //       sectors:"Data Not Found"
+//   //   },function(err,ngo)
+//   //   {
+//   //     if(err)
+//   //     {
+//   //       console.log(err);
+//   //     }
+//   //     else
+//   //       {
+//   //         console.log(ngo);
+//   //       }
+//   //     });
+//       ngo.create(
+
 //         ngo.create(
 //         {
-// name:"Aadhar Foundation",
-// 	regno:"E/20039/Ahmedabad",
-//   city:"Ahmedabad",
-//   state1:"(GUJARAT)",
-//   address:"D21, Shanti Complex, Vejalpur, Ahmedabad",
-//   sectors:"Children,Education & Literacy,Health & Family Welfare,Urban Development & Poverty Alleviation,Vocational Training,Women's Development & Empowerment"
-//        },function(err,ngo){
+//           name:"Action Research and training Institute",
+//           regno:"1876",
+//           City:"Rajgarh",
+//           state1:"(HIMACHAL PRADESH)",
+//           address:"Near SDH , Rajgarh , P.O.- and Tehsil - Rajgarh , Distt- Sirmour ( H.P.) -173101",
+//           sectors:"Animal Husbandry, Dairying & Fisheries,Aged/Elderly,Agriculture,Art & Culture,Biotechnology,Children,Civic Issues,Differently Abled,Disaster Management,Dalit Upliftment,Drinking Water,Education & Literacy,Environment & Forests,Food Processing,Health & Family Welfare,HIV/AIDS,Housing,Human Rights,Information & Communication Technology,Legal Awareness & Aid,Labour &  Employment,Land Resources,Micro Finance (SHGs),Minority Issues,Micro Small & Medium Enterprises"
+// },function(err,ngo){
 //           if(err)
 //           {
 //             console.log(err);
@@ -445,12 +429,12 @@ var ngoschema=new mongoose.Schema({
 //           ngo.create(
 //           {
 //
-//             name:"AADHAR DISABLE TRUST",
-//             regno:"E/7551/SURAT",
-//             city:"SURAT",
-//             state1:"(GUJARAT)",
-//             	address:"423 A YASHPLAZA VARACHHA ROAD SURAT 395006",
-//               sectors:"Data Not Found"
+//             name:"Abhinaya Durpan",
+//             regno:"396/2006",
+//             city:"Shimla",
+//             state1:"(HIMACHAL PRADESH)",
+//             address:"House No. 145/6 Muslim Trust Building Lower Bazar",
+//             sectors:"Art & Culture"
 //
 //           },function(err,ngo)
 //           {
@@ -465,12 +449,14 @@ var ngoschema=new mongoose.Schema({
 //             });
 //             ngo.create(
 //             {
-//               name:"A S FOUNDATION AND CHARITABLE TRUST",
-//               regno:"F/5655/BK",
-//               city:"PALANPUR",
-//                state1:"(GUJARAT)",
-//                	address:"A S FOUNDATION AND CHARITABLE TRUST 65 SHAKTI NAGAR NEAR BRIJASHVAR COLONY PART:1 PALANPUR DIST: BANSHKANTHA PIN 385001 GUJARAT",
-//                 sectors:"Vocational Training"
+//               name:"Aavishkaar Yaatraa",
+//               regno:"394/2016",
+//               city:"Palampur",
+//               state1:"(HIMACHAL PRADESH)",
+//               address:"Village Kamlehar, Mouza Kandbari",
+//               sectors:"Education & Literacy"
+//
+//
 //
 // },function(err,ngo)
 //             {
@@ -483,45 +469,27 @@ var ngoschema=new mongoose.Schema({
 //                   console.log(ngo);
 //                 }
 //               });
-//               ngo.create(
-//               {
-//                 name:"SIDDHI MAHILA EDUCATION TRUST",
-//                 regno:"F/1604/BANASKANTHA",
-//                 city:"PALANPUR",
-//                  state1:"(GUJARAT)",
-//                  address:"PALANPUR",
-//                  	sectors:"Children,Education & Literacy,Tribal Affairs,Dalit Upliftment"
-//     },function(err,ngo)
-//               {
-//                 if(err)
-//                 {
-//                   console.log(err);
-//                 }
-//                 else
-//                   {
-//                     console.log(ngo);
-//                   }
-//                 });
-//                 ngo.create(
-//                 {
-//                   name:"Adarsh Manav Seva Charitable Trust",
-//                   	regno:"F/1230/JUNAGADH",
-//                     city:"Junagadh",
-//                     state1:"(GUJARAT)",
-//                     address:"Office No.-4 Peragon Complex, 2nd Floor, M.G. Road, Junagadh-362001",
-//                     	sectors:"Education & Literacy,Environment & Forests,Food Processing,HIV/AIDS,Health & Family Welfare,Micro Small & Medium Enterprises,Women's Development & Empowerment"
-//
-// },function(err,ngo)
-//                 {
-//                   if(err)
-//                   {
-//                     console.log(err);
-//                   }
-//                   else
-//                     {
-//                       console.log(ngo);
-//                     }
-//                   });
+              ngo.create(
+              {
+                name:"Aasthawelfaresociety Nahan",
+                regno:"119/96",
+                city:"Nahan",
+                state1:"(HIMACHAL PRADESH)",
+                address:"Aastha welfare society Nahan Near Panchayat Bhawan Pucca TankChildren",
+                sectors:"Differently Abled,Education & Literacy,Aged/Elderly,Vocational Trainin"
+
+    },function(err,ngo)
+              {
+                if(err)
+                {
+                  console.log(err);
+                }
+                else
+                  {
+                    console.log(ngo);
+                  }
+                });
+
 app.get("/",function(req,res)
 {
   res.render("home.ejs");
